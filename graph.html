@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript" src="RGraph.common.core.js"></script>
+	<script type="text/javascript" src="RGraph.bar.js"></script>
+</head>
+<body>
+	<CANVAS width="500" height="250" ID="test" style="border: 2px solid black"></CANVAS>
+<script>
+
+	var bar=new RGraph.Bar('test',[10,30,20,10]);
+	bar.Set('chart.colors',['red']);
+	bar.Set('chart.title',"report");
+	bar.Set('chart.labels',["10","20","30","40"]);
+	bar.draw();
+
+</script>
+</body>
+</html>

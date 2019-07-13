@@ -1,0 +1,17 @@
+body
+{
+	align-items: center;
+	background-image:  url('SS1.gif');
+	height: 100%;
+	width:100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#a
+{
+	align-self: center;
+	background-color: white;
+	display: inline;
+	width:500px;
+	height:250px;
+}
